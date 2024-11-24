@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sip Calculator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   <header>
+    <!-- <class="new1" nav> -->
+        <div id="new1">
+
+      <img id="top-icon-1" src="icons/rupee-coin-outline-icon.svg" alt="">
+      <img onclick="changeback()" class="iconmoon"  src="icons/moon-dark-theme-svgrepo-com.svg" alt="">
+    </div>
+    <!-- </nav> -->
+   </header>
+
+
+<div class="container">
+
+
+    
+
+
+    <div class="left">
+        <h1 id="heading">SIP CALCULATOR</h1>
+
+        <div class="monthly">
+            <div class="m-1">
+                <label id="labal-1">Monthly Investment (₹)</label><input id="monthly-input" type="Number" value="5000" max="1000000" min="100">
+            </div>
+            <input id="monthly-range" type="range" min="100" max="1000000" value="5000">
+        </div>
+
+        <div class="intrest">
+            <div class="m-2">
+                <label id="labal-2">Expected Return Rate(P.A)%</label><input id="intrest-input" type="Number" value="12">
+            </div>
+            <input id="intrest-range" type="range" min="1" max="30" value="12" step="0.1">
+        </div>
+
+        <div class="year">
+            <div class="m-3">
+                <label id="labal-3">Time Period (Year)</label><input id="year-input" type="Number" value="3">
+            </div>
+            <input id="year-range" type="range" min="1" max="40" value="3">
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="summary-box">
+            <p id="summary">Summary</p>
+
+            <div class="box-1">
+                <p id="monthly-amount-tag">Total Investment</p>
+                <p id="invested-amount">₹5000</p>
+            </div>
+
+            <div class="box-2">
+                <p id="est-returns-tag">Est. Returns</p>
+                <p id="est-returns">₹0</p>
+            </div>
+
+            <div class="box-3">
+                <p id="total-value-tag">Total Value</p>
+                <p id="total-value">₹0</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+ 
+   <a href="https://github.com/shaikhnehal1" target="_blank"><img class="icons-1" src="icons/icons8-github.svg" alt=""></a> 
+   <a href="https://www.instagram.com/nehal__shk/" target="_blank"><img class="icons-2" src="icons/icons8-instagram.svg" alt=""></a> 
+   <a href="https://www.linkedin.com/in/nehal-shaikh-6590bb2a2/" target="_blank"><img class="icons-3" src="icons/icons8-linkedin-logo.svg" alt=""></a> 
+
+</footer>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

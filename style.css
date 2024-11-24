@@ -1,0 +1,394 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins";
+    font-weight: 600;
+    background-color: rgb(10, 129, 208);
+
+   
+}
+
+
+
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+   
+
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.left {
+    width: 40%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right {
+    width: 40%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+#heading {
+   color: rgb(10, 129, 208)
+   
+}
+
+.monthly {
+    margin-top: 30px;
+}
+
+.m-1 {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(64, 63, 63);
+}
+
+#monthly-input {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid rgb(62, 62, 62);
+    font-weight: 700;
+    font-size: larger;
+    color: rgb(62, 62, 62);
+}
+
+#monthly-range {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.intrest {
+    margin-top: 40px;
+}
+
+.m-2 {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(64, 63, 63);
+}
+
+#intrest-input {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid  rgb(62, 62, 62);
+    font-weight: 700;
+    font-size: larger;
+    color:  rgb(62, 62, 62);
+}
+
+#intrest-range {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.year {
+    margin-top: 30px;
+}
+
+.m-3 {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(64, 63, 63);
+}
+
+#year-range {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#year-input {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid  rgb(62, 62, 62);
+    font-weight: 700;
+    font-size: larger;
+    color:  rgb(62, 62, 62);
+}
+
+.summary-box {
+    width: 80%;
+    height: 100%;
+    margin-top: 30px;
+    padding: 10px 3px;
+    
+}
+
+.box-1, .box-2, .box-3 {
+    width: 100%;
+    height: 15%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+#summary {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .container {
+        flex-direction: column;
+        height: 100vh;
+        padding: 8px;
+    }
+
+    .left {
+        width: 100%;
+        height: 100%;
+        margin-top: 2px;
+
+    }
+
+    .right {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin-top: 6px;
+    }
+
+    .summary-box {
+        width: 100%;
+        height: 100%;
+        font-size: 10px;
+        padding: 0 0;
+    }
+
+    #monthly-input {
+        width: 38%;
+    }
+
+    #heading{
+        font-size: 25px;
+    }
+
+    nav{
+        height: 20px;
+        padding: 0 10px;
+
+    }
+
+
+
+    
+
+
+    #top-icon-1{
+         width: 30px;
+   }
+
+.iconmoon{
+width: 30px;
+cursor: pointer;
+}  
+
+
+
+
+#monthly-amount-tag{
+font-size:-2px;
+}
+
+#invested-amount{
+font-size:-2px;
+}
+
+/* --------------------------- */
+#est-returns{
+font-size:-2px;
+
+}
+
+#est-returns-tag{
+font-size: -2px;   
+}
+
+/* ----------------------------- */
+
+#total-value{
+font-size: -2px;   
+}
+
+#total-value-tag{
+font-size:-2px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+header{
+    width: 100%;
+    height: 80px;
+    
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* nav{
+width: 90%;
+height: 70px;
+background-color: rgb(255, 253, 253);
+border-radius: 40px;
+position: fixed;
+box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 14px 0 rgba(0, 0, 0, 0.19);
+display: flex;
+justify-content: space-between;
+padding: 0 30px;
+} */
+
+
+footer{
+width: 100%;
+height: 50px;
+background-color: rgb(0, 0, 0);
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 20px;
+padding: 10px;
+box-shadow: 0;
+bottom: 0;
+border-top: 3px solid white;
+}
+
+#new1{
+width: 90%;
+height: 70px;
+background-color: rgb(255, 253, 253);
+border-radius: 40px;
+position: fixed;
+box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 14px 0 rgba(0, 0, 0, 0.19);
+display: flex;
+justify-content: space-between;
+padding: 0 30px;
+
+}
+
+
+#monthly-amount-tag{
+font-size: 19px;
+}
+
+#invested-amount{
+font-size: 19px;
+}
+
+/* --------------------------- */
+#est-returns{
+font-size: 19px;
+
+}
+
+#est-returns-tag{
+font-size: 19px;   
+}
+
+/* ----------------------------- */
+
+#total-value{
+font-size: 19px;   
+}
+
+#total-value-tag{
+font-size: 19px;  
+}
+
+
+
+
+
+
+
+.icons-1{
+width: 40px;
+}
+
+.icons-2{
+width: 30px;
+}
+
+.icons-3{
+width: 35px;
+}
+
+
+#top-icon-1{
+width: 40px;
+}
+
+.iconmoon{
+width: 40px;
+cursor: pointer;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+
+}
